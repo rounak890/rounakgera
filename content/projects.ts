@@ -1,0 +1,6 @@
+export const projects = [
+ {title:"Cranial reconstruction", category:"Medical imaging · 3D U-Net", description:"Lightweight volumetric reconstruction with optimized medical-image preprocessing. Improved reconstruction performance by 4.5%; received the Best Project Award.", tags:["PyTorch","3D U-Net","Medical imaging"], visual:"scan"},
+ {title:"MedFusion-XAI", category:"Explainable multimodal healthcare", description:"A multimodal platform for pneumonia, Alzheimer’s disease, and diabetic retinopathy detection, with AI agents for report analysis, diet planning, and hospital finding.", tags:["React","PyTorch","Grad-CAM","SHAP"], visual:"heatmap"},
+ {title:"MiniRAG", category:"Retrieval · Contract QA", description:"An end-to-end contract question-answering pipeline with recursive chunking, query expansion, FAISS retrieval, and lightweight reranking. TODO(confirm): one resume also describes a Django full-stack app variant; confirm whether that version belongs here.", tags:["SentenceTransformers","FAISS","Ollama","Python"], visual:"retrieval"},
+ {title:"CA Buddy", category:"Document intelligence", description:"An AI assistant combining document intelligence, tax computation, and compliance automation with retrieval and document-processing workflows.", tags:["Django","React","FAISS","Tesseract OCR","Gemini API"]},
+];
